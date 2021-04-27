@@ -3,10 +3,10 @@
     "contentVersion": "1.0.0.0",
     "parameters": {
         "location": {
-            "value": "westus2"
+            "value": "WestEurope"
         },
         "virtualNetworkName": {
-            "value": "ContosoVNET"
+            "value": "MoContosoVNET"
         },
         "addressSpaces": {
             "value": [
@@ -44,13 +44,13 @@
             "value": "private-links"
         },
         "appInsightName": {
-            "value": "contosoAppInsight"
+            "value": "mocontosoAppInsight"
         },
         "deploymentStorageAccountName": {
-            "value": "contosodeployments"
+            "value": "mocontosodeployments"
         },
         "applicationStorageAccountName": {
-            "value": "contosoappstate"
+            "value": "mocontosoappstate"
         },
         "storageAccountType": {
             "value": "Standard_LRS"
@@ -80,31 +80,31 @@
             "value": "Allow"
         },
         "privateBlobEndpointName": {
-            "value": "private-blob-endpoint"
+            "value": "moprivate-blob-endpoint"
         },
         "privateBlobEndpointConnectionName": {
-            "value": "private-blob-endpoint-connection"
+            "value": "moprivate-blob-endpoint-connection"
         },
         "privateTableEndpointName": {
-            "value": "private-table-endpoint"
+            "value": "moprivate-table-endpoint"
         },
         "privateTableEndpointConnectionName": {
-            "value": "private-table-endpoint-connection"
+            "value": "moprivate-table-endpoint-connection"
         },        
         "privateQueueEndpointName": {
-            "value": "private-queue-endpoint"
+            "value": "moprivate-queue-endpoint"
         },
         "privateQueueEndpointConnectionName": {
-            "value": "private-queue-endpoint-connection"
+            "value": "moprivate-queue-endpoint-connection"
         },
         "privateEndpointApiVersion": {
             "value": "2020-03-01"
         },
         "logicAppBEname": {
-            "value": "LogicAppBE00"
+            "value": "moLogicAppBE00"
         },
         "logicAppBEHostingPlanBEName": {
-            "value": "LogicAppBEPlan"
+            "value": "moLogicAppBEPlan"
         },
         "logicAppUse32BitWorkerProcess": {
             "value": true
@@ -125,16 +125,16 @@
             "value": "1"
         },
         "logicAppBEPrivateEndpointName": {
-            "value": "LogicAppBE-PrivateEndpoint"
+            "value": "moLogicAppBE-PrivateEndpoint"
         },
         "logicAppBEPrivateEndpointConnectionName": {
-            "value": "LogicAppBE-PrivateEndpointConnection"
+            "value": "moLogicAppBE-PrivateEndpointConnection"
         },
         "logicAppFEname": {
-            "value": "LogicAppFE00"
+            "value": "moLogicAppFE00"
         },
         "logicAppFEHostingPlanFEName": {
-            "value": "LogicAppFEPlan"
+            "value": "moLogicAppFEPlan"
         },
         "tags": {
             "value": {}
